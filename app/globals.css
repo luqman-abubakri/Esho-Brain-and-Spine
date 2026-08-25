@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --color-hospital-primary: #0284c7;
+  --color-hospital-secondary: #0d9488;
+  --color-hospital-bg: #f8fafc;
+  --color-hospital-text: #0f172a;
+  --color-hospital-muted: #64748b;
+  --color-hospital-danger: #dc2626;
+}
