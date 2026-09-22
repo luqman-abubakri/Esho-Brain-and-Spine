@@ -36,7 +36,7 @@ const Hero = () => {
     <section ref={heroRef} className="grid min-h-[calc(100vh-76px)] grid-cols-1 overflow-hidden bg-[var(--bg-primary)] lg:grid-cols-[minmax(0,0.92fr)_minmax(420px,1.08fr)]">
       <div className="flex items-center px-5 py-12 sm:px-8 lg:px-10 xl:px-10">
         <div className="max-w-2xl">
-          <p className="mb-5 text-sm font-semibold uppercase tracking-[0.22em] text-emerald-600">Specialist neurological care</p>
+          <p className="mb-5 text-sm font-semibold uppercase tracking-[0.22em] text-emerald-600">Specialized neurological care</p>
           <h1 ref={headingRef} className="max-w-2xl text-5xl font-semibold leading-[1.03] tracking-tight text-blue-950 sm:text-6xl xl:text-7xl">
             Advanced care for the <span className="text-emerald-500">brain, spine, and nervous system.</span>
           </h1>
@@ -67,7 +67,7 @@ const Hero = () => {
           WebkitMaskRepeat: "no-repeat",
         }}
       >
-        <Image src="/surgery.jpg" alt="A neurosurgeon performing a delicate procedure" fill priority sizes="(max-width: 1024px) 100vw, 54vw" className="object-cover object-center" />
+        <Image src="/surgery.jpg" alt="A neurosurgeon performing a delicate procedure" fill priority sizes="(max-width: 1023px) 100vw, 54vw" className="object-cover object-center" />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-blue-950/10 via-transparent to-blue-950/20" />
       </div>
     </section>
