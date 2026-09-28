@@ -36,13 +36,13 @@ const specialties = [
 
 const Specialities = () => {
   return (
-    <section className="bg-[linear-gradient(180deg,#f8fafc_0%,#eef2ff_100%)] px-6 py-20 sm:px-8 lg:px-12">
+    <section className=" px-6 py-20 sm:px-8 lg:px-12">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <p className="mb-4 inline-flex items-center px-4 py-2 text-lg font-semibold uppercase tracking-[0.14em] text-green-300">
             Our Specialities
           </p>
-          <h2 className="text-3xl font-bold tracking-tight text-[var(--text-primary)] sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-blue-950 sm:text-4xl">
             World-Class Expertise in Neurological Care
           </h2>
           <p className="mt-4 text-base leading-7 text-[var(--text-secondary)] sm:text-lg">
