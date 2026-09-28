@@ -110,11 +110,7 @@ const Why = () => {
                 className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
               />
             </Link>
-
-            <div className="flex items-center gap-2 text-sm text-slate-500">
-              <Stethoscope size={17} className="text-emerald-600" />
-              <span>Care with clinical purpose</span>
-            </div>
+            
           </div>
         </div>
       </div>
